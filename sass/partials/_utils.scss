@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+$PrimaryFont: "Poppins", sans-serif;
+$secondaryFont: "Playfair-display", serif;
+$primaryColor: steelblue;
+$secondaryColor: orangered;
+$darkColor: #252525;
+$lightColor: #fff;
+
+$primaryTextColor: #262626;
+$white: #fff;
+
+body {
+  color: #262626;
+  font-family: $PrimaryFont;
+  font-size: 15px;
+  font-weight: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair-display", serif;
+  margin: 0 0 15px;
+}
+p {
+  font-family: $PrimaryFont;
+  margin: 0 0 15px;
+}

@@ -1,0 +1,14 @@
+@mixin flexCenter($color) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: $color;
+}
+#cta {
+  @include flexCenter(steelblue);
+}
+#cta2 {
+  @include flexCenter(orangered);
+  
+}
